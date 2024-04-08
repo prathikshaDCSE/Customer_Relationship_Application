@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="446.0" prefWidth="408.0" style="-fx-background-color: #BEBDB8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-91.0" layoutY="-218.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="26.0" layoutY="27.0" text="First Name" />
+      <Label layoutX="27.0" layoutY="66.0" text="Last Name" />
+      <Label layoutX="28.0" layoutY="111.0" text="Mobile no" />
+      <Label layoutX="33.0" layoutY="328.0" text="Address" />
+      <Label layoutX="34.0" layoutY="214.0" text="Gender" />
+      <Label layoutX="32.0" layoutY="261.0" text="Email" />
+      <Button layoutX="319.0" layoutY="396.0" mnemonicParsing="false" text="Submit" />
+      <TextField layoutX="109.0" layoutY="23.0" style="-fx-background-color: 00000;" />
+      <TextField layoutX="109.0" layoutY="23.0" prefHeight="25.0" prefWidth="178.0" style="-fx-background-color: #00666;" />
+      <TextField layoutX="109.0" layoutY="62.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextField layoutX="109.0" layoutY="107.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextField layoutX="112.0" layoutY="257.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextArea layoutX="108.0" layoutY="314.0" prefHeight="45.0" prefWidth="193.0" />
+      <RadioButton layoutX="104.0" layoutY="214.0" mnemonicParsing="false" text="Male" />
+      <RadioButton layoutX="220.0" layoutY="214.0" mnemonicParsing="false" text="Female" />
+      <Label layoutX="32.0" layoutY="162.0" text="Role" />
+      <RadioButton layoutX="104.0" layoutY="162.0" mnemonicParsing="false" text="Customer" />
+      <RadioButton layoutX="220.0" layoutY="162.0" mnemonicParsing="false" text="Lead" />
+   </children>
+</AnchorPane>
